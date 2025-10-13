@@ -1,4 +1,4 @@
-# 나이스페이먼츠 developers MCP 서버 프로젝트 분석 문서
+# 나이스정보통신 developers MCP 서버 프로젝트 분석 문서
 
 ## 📋 목차
 1. [프로젝트 개요](#1-프로젝트-개요)
@@ -20,12 +20,12 @@
 - **프로젝트명**: `@going_on_hypersonic/developers-mcp`
 - **버전**: 0.0.1
 - **타입**: MCP (Model Context Protocol) 서버
-- **주요 기능**: 나이스페이먼츠 developers 페이지 정보 제공
+- **주요 기능**: 나이스정보통신 developers 페이지 정보 제공
 - **개발언어**: TypeScript (Node.js v22.17.1)
 - **라이선스**: MIT
 
 ### 1.2 프로젝트 목적
-나이스페이먼츠의 developers 사이트에서 제공중인 결제 연동 관련 문서들을 AI가 효율적으로 검색하고 참조할 수 있도록 하는 MCP 서버입니다.
+나이스정보통신의 developers 사이트에서 제공중인 결제 연동 관련 문서들을 AI가 효율적으로 검색하고 참조할 수 있도록 하는 MCP 서버입니다.
 Cursor, Claude, GitHub Copilot등과 같은 AI 개발 도구와 연동되어 실시간으로 결제 API 문서를 제공합니다.
 
 ### 1.3 핵심 기능
@@ -148,7 +148,7 @@ src/
 // 핵심 코드 구조
 const server = new McpServer({
   name: "nicepayments-integration-guide",
-  description: "나이스페이먼츠 시스템 연동 도구",
+  description: "나이스정보통신 시스템 연동 도구",
   version: "1.0.0",
 });
 
@@ -636,7 +636,7 @@ server.tool("get_documents_v2", description, schema, handler);
 
 ## 📚 결론
 
-이 나이스페이먼츠 developers MCP 서버는 잘 구조화된 문서 검색 시스템으로, MCP 프로토콜을 통해 AI 도구와 효과적으로 연동됩니다. 
+이 나이스정보통신 developers MCP 서버는 잘 구조화된 문서 검색 시스템으로, MCP 프로토콜을 통해 AI 도구와 효과적으로 연동됩니다. 
 
 ### 주요 강점
 - **모듈러 아키텍처**: 각 계층이 명확히 분리되어 유지보수성 우수

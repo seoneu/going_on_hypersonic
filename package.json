@@ -1,7 +1,7 @@
 {
   "name": "@nicepayments/developers-guide-mcp",
   "version": "0.0.7",
-  "description": "나이스페이먼츠 developers 연동가이드 MCP 서버",
+  "description": "나이스정보통신 developers 연동가이드 MCP 서버",
   "accessScope": "public",
   "license": "MIT",
   "type": "module",
